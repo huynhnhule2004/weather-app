@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
   return (
     <form onSubmit={handleSubmit} className="flex items-center gap-2">
       <input
-        className="border px-2 py-1 rounded"
+        className="border px-2 py-1 rounded bg-white text-black placeholder-gray-500 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
         value={value}
         onChange={(e) => setValue(e.target.value)}
         placeholder="Nhập tên thành phố"
